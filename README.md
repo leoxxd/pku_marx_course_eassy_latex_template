@@ -1,2 +1,1 @@
-# pku_marx_course_eassy_latex_template
-北大马当代课程论文latex模版
+# 北大马当代课程论文latex模版
