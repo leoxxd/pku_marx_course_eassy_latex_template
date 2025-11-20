@@ -1,0 +1,74 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[UTF8]{ctex}
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=1.5cm,bottom=1.5cm}
+
+% 设置字体和行距
+\usepackage{setspace}
+\onehalfspacing
+\renewcommand{\normalsize}{\fontsize{12}{18}\selectfont}
+
+\usepackage{array}
+\usepackage{graphicx}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\begin{document}
+
+% 图片在页面顶部
+\begin{center}
+\includegraphics[width=0.5\linewidth]{fengmian.png}
+\end{center}
+
+% 标题紧跟在图片下面
+\begin{center}
+\zihao{-2}\heiti
+202X年秋季学期中国马克思主义与当代\\
+X班期末论文
+\end{center}
+\vspace{1em}
+% 题目信息
+\begin{center}
+\zihao{-2}
+题目：\underline{\hspace{14cm}}
+\end{center}
+\vspace{1em}
+
+% 个人信息（无边框）
+\begin{center}
+\zihao{3}
+\begin{tabular}{l}
+{\heiti 姓\hspace{1em}名：}\underline{\makebox[8cm]{\hfill  \hfill}} \\[0.3cm]
+{\heiti 学\hspace{1em}号：}\underline{\makebox[8cm]{\hfill  \hfill}} \\[0.3cm]
+{\heiti 院\hspace{1em}系：}\underline{\makebox[8cm]{\hfill  \hfill}} \\[0.3cm]
+{\heiti 手机号：}\underline{\makebox[8cm]{\hfill  \hfill}} \\[0.3cm]
+{\heiti 邮\hspace{1em}箱：}\underline{\makebox[8cm]{\hfill  \hfill}} \\
+\end{tabular}
+\end{center}
+
+\vspace{2cm}
+
+
+
+
+
+
+% 教师评语
+\noindent\zihao{3}\makebox[16cm][l]{\heiti 教师评语：\rule{13.2cm}{0.4pt}}
+\\[0.6cm]
+% 5条等宽下划线
+\noindent\rule{16cm}{0.4pt}\\[0.6cm]
+\noindent\rule{16cm}{0.4pt}\\[0.6cm]
+\noindent\rule{16cm}{0.4pt}\\[0.6cm]
+\noindent\rule{16cm}{0.4pt}\\[0.6cm]
+ % 得分和日期（等宽左对齐）
+ \noindent{\zihao{3}\makebox[16cm][l]{\heiti 得分：\rule{13.2cm}{0.4pt}}}
+
+
+\begin{center}
+{\zihao{3}\heiti 202X年X月}
+\end{center}
+
+\end{document}
+
